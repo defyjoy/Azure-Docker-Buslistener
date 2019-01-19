@@ -1,0 +1,12 @@
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\bin\Debug\netcoreapp2.1\AZBus-Daemon-Listener.deps.json
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\bin\Debug\netcoreapp2.1\AZBus-Daemon-Listener.runtimeconfig.json
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\bin\Debug\netcoreapp2.1\AZBus-Daemon-Listener.runtimeconfig.dev.json
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\bin\Debug\netcoreapp2.1\AZBus-Daemon-Listener.dll
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\obj\Debug\netcoreapp2.1\AZBus-Daemon-Listener.csproj.CoreCompileInputs.cache
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\obj\Debug\netcoreapp2.1\AZBus-Daemon-Listener.AssemblyInfoInputs.cache
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\obj\Debug\netcoreapp2.1\AZBus-Daemon-Listener.AssemblyInfo.cs
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\bin\Debug\netcoreapp2.1\AZBus-Daemon-Listener.pdb
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\obj\Debug\netcoreapp2.1\AZBus-Daemon-Listener.dll
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\obj\Debug\netcoreapp2.1\AZBus-Daemon-Listener.pdb
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\obj\Debug\netcoreapp2.1\AZBus-Daemon-Listener.csprojAssemblyReference.cache

@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\joydeep.rc\\source\\repos\\AZBus-Daemon\\AZBus-Daemon-Listener\\AZBus-Daemon-Listener.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

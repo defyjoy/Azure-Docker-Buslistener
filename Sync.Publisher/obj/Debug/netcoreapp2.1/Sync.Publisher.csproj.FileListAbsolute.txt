@@ -1,0 +1,11 @@
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\bin\Debug\netcoreapp2.1\Sync.Publisher.deps.json
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\bin\Debug\netcoreapp2.1\Sync.Publisher.runtimeconfig.json
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\bin\Debug\netcoreapp2.1\Sync.Publisher.runtimeconfig.dev.json
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\bin\Debug\netcoreapp2.1\Sync.Publisher.dll
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\obj\Debug\netcoreapp2.1\Sync.Publisher.csprojAssemblyReference.cache
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\obj\Debug\netcoreapp2.1\Sync.Publisher.csproj.CoreCompileInputs.cache
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\obj\Debug\netcoreapp2.1\Sync.Publisher.AssemblyInfoInputs.cache
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\obj\Debug\netcoreapp2.1\Sync.Publisher.AssemblyInfo.cs
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\bin\Debug\netcoreapp2.1\Sync.Publisher.pdb
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\obj\Debug\netcoreapp2.1\Sync.Publisher.dll
+C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Publisher\Sync.Publisher\obj\Debug\netcoreapp2.1\Sync.Publisher.pdb
