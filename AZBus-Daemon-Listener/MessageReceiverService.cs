@@ -61,6 +61,7 @@ namespace AZBus_Daemon_Listener
 
             // Register the function that processes messages.
             subscriptionClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandlerOptions);
+            await Task.CompletedTask;
         }
 
         private Task ExceptionReceivedHandler(ExceptionReceivedEventArgs exceptionReceivedEventArgs)
