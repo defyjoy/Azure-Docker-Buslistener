@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AZBus-Daemon-Publisher", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AZBus-Daemon-Listener", "AZBus-Daemon-Listener\AZBus-Daemon-Listener.csproj", "{95091CF0-F628-4953-9EC6-7E901E6AC1FA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sync", "Sync", "{8C00794F-822D-40B0-9487-FD3358703271}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Eventhub", "Eventhub", "{8C00794F-822D-40B0-9487-FD3358703271}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync.Publisher", "Sync.Publisher\Sync.Publisher.csproj", "{5C4786E7-500E-46A0-AC26-5739F2270CFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sync.Publisher", "Sync.Publisher\Sync.Publisher.csproj", "{5C4786E7-500E-46A0-AC26-5739F2270CFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

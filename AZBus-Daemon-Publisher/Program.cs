@@ -1,6 +1,9 @@
 ﻿using Microsoft.Azure.ServiceBus;
 using Microsoft.Extensions.Configuration;
+using Quartz;
+using Quartz.Impl;
 using System;
+using System.Collections.Specialized;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -9,22 +12,6 @@ namespace AZBus_Daemon_Publisher
 {
     class Program
     {
-        private readonly static string ServiceBusConnectionString = string.Empty;
-        private readonly static string Topic = string.Empty;
-        private readonly static ITopicClient topicClient;
-
-        static Program()
-        {
-            IConfiguration config = new ConfigurationBuilder()
-                    .AddJsonFile("appsettings.json", true, true)
-                    .Build();
-
-            ServiceBusConnectionString = config.GetSection("Azure:Bus-Endpoint").Value;
-            Topic = config.GetSection("Azure:Topic").Value;
-
-            topicClient = new TopicClient(ServiceBusConnectionString, Topic);
-
-        }
         static void Main(string[] args)
         {
             MainAsync().GetAwaiter().GetResult();
@@ -33,7 +20,6 @@ namespace AZBus_Daemon_Publisher
         {
             await SendMessagesAsync();
             Console.ReadKey();
-            await topicClient.CloseAsync();
         }
 
         private async static Task SendMessagesAsync()
@@ -41,24 +27,30 @@ namespace AZBus_Daemon_Publisher
             try
             {
                 Console.WriteLine("============START SENDING MESSAGES ==========");
-                int i = 0;
-                do
+
+                IJobDetail job = JobBuilder.Create<PublishMessageJob>()
+                   .WithIdentity("job1", "group1")
+                   .Build();
+
+
+                var trigger = TriggerBuilder.Create()
+                  .WithIdentity("trigger7", "group1")
+                  .WithSimpleSchedule(x => x
+                      .WithIntervalInSeconds(3)
+                      .RepeatForever())
+                  //.EndAt(DateBuilder.DateOf(22, 0, 0))
+                  .Build();
+
+                NameValueCollection props = new NameValueCollection
                 {
-                    while (!Console.KeyAvailable)
-                    {
-                         // Create a new message to send to the topic.
-                            string messageBody = $"Message {++i}";
-                            var message = new Message(Encoding.UTF8.GetBytes(messageBody));
+                    { "quartz.serializer.type", "binary" }
+                };
 
-                            // Write the body of the message to the console.
-                            Console.WriteLine($"Sending message: {messageBody}");
+                StdSchedulerFactory factory = new StdSchedulerFactory(props);
+                IScheduler scheduler = await factory.GetScheduler();
 
-                            // Send the message to the topic.
-                            await topicClient.SendAsync(message);
-                            Thread.Sleep(3000);
-                        
-                    }
-                } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
+                await scheduler.ScheduleJob(job, trigger);
+                await scheduler.Start();
             }
             catch (Exception exception)
             {

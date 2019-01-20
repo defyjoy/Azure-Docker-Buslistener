@@ -24,10 +24,13 @@ namespace AZBus_Daemon_Listener
             IConfiguration config = new ConfigurationBuilder()
                     .AddJsonFile("appsettings.json", true, true)
                     .Build();
-            //ServiceBusConnectionString = config.GetSection("Azure:BusEndpoint").Value;
-            //Topic = config.GetSection("Azure:Topic").Value;
-            //Subscription = config.GetSection("Azure:Subscription").Value;
+            ServiceBusConnectionString = config.GetSection("AzureConfig:BusEndpoint").Value;
+            Topic = config.GetSection("AzureConfig:Topic").Value;
+            Subscription = config.GetSection("AzureConfig:Subscription").Value;
 
+            Console.WriteLine($"Bus Endpoint : {ServiceBusConnectionString}");
+            Console.WriteLine($"Topic : {Topic}");
+            Console.WriteLine($"Subscription : {Subscription}");
             //subscriptionClient = new SubscriptionClient(ServiceBusConnectionString, Topic, Subscription);
         }
 
