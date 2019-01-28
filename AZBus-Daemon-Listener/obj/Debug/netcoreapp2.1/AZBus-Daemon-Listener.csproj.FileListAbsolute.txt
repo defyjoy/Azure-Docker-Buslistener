@@ -9,4 +9,3 @@ C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\bin\Debug\ne
 C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\bin\Debug\netcoreapp2.1\AZBus-Daemon-Listener.pdb
 C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\obj\Debug\netcoreapp2.1\AZBus-Daemon-Listener.dll
 C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\obj\Debug\netcoreapp2.1\AZBus-Daemon-Listener.pdb
-C:\Users\joydeep.rc\source\repos\AZBus-Daemon\AZBus-Daemon-Listener\obj\Debug\netcoreapp2.1\AZBus-Daemon-Listener.csprojAssemblyReference.cache
